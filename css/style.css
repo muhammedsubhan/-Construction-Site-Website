@@ -53,7 +53,7 @@ a{
     color: rgb(255,0,0);
 }
 
-button{
+button.btn{
     cursor: pointer;
     color:#FFF;
     font-size: 18px;
@@ -62,6 +62,7 @@ button{
     background: rgb(255,0,0);
     border: none;
 }
+
          /* Home Section */
 
 .bg-image img {
@@ -278,7 +279,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-   margin-top: -380px;
+    margin-top: -380px;
 }
 .heading-white{
     color: rgba(242, 243, 245, 1);
@@ -287,6 +288,7 @@ button{
     font-weight: 500;
     font-size: 25px;
     line-height: 56px;
+    
 }
 
 .icons{
@@ -415,4 +417,162 @@ button{
 .icon5 span{
     position: relative;
     left:10px;
+}
+
+/* Founder section */
+
+#founders{
+    background: #131D3B;
+}
+
+.founders-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+.founders-heading h1{
+    font-family: 'Galano Grotesque',sans-serif;
+    color: #F2F3F5;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    top: 60px;
+}
+
+.founders-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.founder-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(242, 243, 245, 1);
+    margin-right: 30% ;
+    padding: 70px;
+}
+
+.founder-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(242, 243, 245, 1);
+    padding: 70px;
+}
+
+.founder-1 h3{
+    position: absolute;
+    width: 230px;
+    height: 100px;
+    font-family: 'Rubik',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #131D3B;
+}
+.founder-2 h3{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    font-family: 'Rubik',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #131D3B;
+}
+
+.founder-1 p{
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    font-family: 'Rubik',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #131D3B;
+}
+
+.founder-2 p{
+    position: absolute;
+    width: 170px;
+    height: 10px;
+    font-family: 'Rubik',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #131D3B;
+    
+}
+
+.founder-1 img{
+    transform: translateY(-70%);
+    width: 90%;
+}
+
+.founder-2 img{
+    transform: translateY(-70%);
+    width: 90%;
+}
+
+button.btnn{
+    color: #131D3B;
+    background: #F2F3F5;
+    border: 2px #EC1C24 solid;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+button i{
+    color: #EC1C24;
+    margin-left: 10px;
+}
+
+.client-heading h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: #F2F3F5;
+    font-family: 'Rubik',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 20px;
+}
+
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.client-1,.client-2,.client-3,.client-4,.Client-5{
+    background: #F2F3F5;
+    margin-right: 20px;
+    width: 220px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
 }
