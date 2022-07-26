@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 
 *{
@@ -35,11 +35,12 @@ a{
 .main-nav li{
     display: inline-block;
     padding: 0 30px;
+    transition: all 0.4s ease;
 
 }
 
 .main-nav li a{
-    font-family: 'Galano Grotesque', sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -51,6 +52,10 @@ a{
 
 .main-nav li a:hover{
     color: rgb(255,0,0);
+}
+
+.main-nav li:hover{
+    transform: scale(1.3);
 }
 
 button.btn{
@@ -84,7 +89,7 @@ button.btn{
 }
 
 .home-content h1{
-    font-family: 'Galano Grotesque', sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-weight: 700;
     font-size: 52px;
     line-height: 81px;
@@ -136,7 +141,7 @@ button.btn{
 .heading-blue h1{
     color: #131D3B;
     font-size: 35px;
-    font-family: 'Galano Grotesque', sans-serif; 
+    font-family: 'Roboto',sans-serif;
     font-weight: 600;
     
     
@@ -162,7 +167,7 @@ button.btn{
     background: #131D3B;
     padding:65px 100px;
     color: #FFFFFF;
-    font-family: 'Galano Grotesque', sans-serif; 
+    font-family: 'Roboto',sans-serif; 
     font-size: 17px;
     line-height: 25px;
     font-style: normal;
@@ -185,7 +190,7 @@ button.btn{
     background: #EC1C24;
     padding:115px 40px;
     color: #FFFFFF;
-    font-family: 'Galano Grotesque', sans-serif; 
+    font-family: 'Roboto',sans-serif;
     font-size: 30px;
     font-weight: 300;
     line-height: 25px;
@@ -208,7 +213,7 @@ button.btn{
 
 
 .mission h4,.vision h4{
-    font-family: 'Galano Grotesque',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-size: 24px;
     font-weight: 600;
     color:#131D3B;
@@ -217,7 +222,7 @@ button.btn{
 
 .culture h4{
     position: relative;
-    font-family: 'Galano Grotesque',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-size: 24px;
     font-weight: 600;
     color:#131D3B;
@@ -226,7 +231,7 @@ button.btn{
 }
 
 .mission p, .vision p{
-    font-family: 'Galano Grotesque',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     color: #131D3B;
     font-size: 14px;
@@ -237,7 +242,7 @@ button.btn{
     position: relative;
     top:-10px;
     left: 20px;
-    font-family: 'Galano Grotesque',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     color: #131D3B;
     font-size: 14px;
@@ -248,7 +253,7 @@ button.btn{
      position: relative;
      top: 10px;
      color: #EC1C24;
-    font-family: 'Galano Grotesque',sans-serif;
+     font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -259,7 +264,7 @@ button.btn{
     top: 10px;
     left: 25px;
     color: #EC1C24;
-    font-family: 'Galano Grotesque',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -283,7 +288,7 @@ button.btn{
 }
 .heading-white{
     color: rgba(242, 243, 245, 1);
-    font-family: 'Galano Grotesque',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -295,7 +300,7 @@ button.btn{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 48px;
 }
 
 .icon1 span ,.icon2 span,.icon3 span,.icon4 span,.icon5 span{
@@ -303,7 +308,7 @@ button.btn{
     font-size: 18px;
     font-weight: 500;
     font-style: normal;
-    font-family: 'Galano Grotesque',sans-serif;
+    font-family: 'Roboto',sans-serif;
     text-transform: uppercase;
     position: relative;
     left:10px;
@@ -356,7 +361,7 @@ button.btn{
 .icon1{
     background: #F2F3F5;
     justify-content: center;
-    padding: 50px 20px;
+    padding: 55px 25px;
     margin-right: 10px;
     width: 200px;
     
@@ -365,7 +370,7 @@ button.btn{
 .icon2{
     background: #F2F3F5;
     justify-content: center;
-    padding: 40px 10px;
+    padding: 55px 13px;
     margin-right: 10px;
     width: 200px;
 }
@@ -373,7 +378,7 @@ button.btn{
 .icon3{
     background: #F2F3F5;
     justify-content: center;
-    padding: 50px 10px;
+    padding: 55px 10px;
     margin-right: 10px;
     width: 200px;
 }
@@ -381,7 +386,7 @@ button.btn{
 .icon4{
     background: #F2F3F5;
     justify-content: center;
-    padding: 50px 10px;
+    padding: 55px 10px;
     margin-right: 10px;
     width: 200px;
 }
@@ -389,7 +394,7 @@ button.btn{
 .icon5{
     background: #F2F3F5;
     justify-content: center;
-    padding: 50px 10px;
+    padding: 55px 10px;
     margin-right: 10px;
     width: 200px;
 }
@@ -434,7 +439,7 @@ button.btn{
 }
 
 .founders-heading h1{
-    font-family: 'Galano Grotesque',sans-serif;
+    font-family: 'Roboto',sans-serif;
     color: #F2F3F5;
     font-size: 40px;
     font-weight: 600;
@@ -472,7 +477,7 @@ button.btn{
     position: absolute;
     width: 230px;
     height: 100px;
-    font-family: 'Rubik',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -484,7 +489,7 @@ button.btn{
     position: absolute;
     width: 250px;
     height: 100px;
-    font-family: 'Rubik',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 29px;
@@ -497,7 +502,7 @@ button.btn{
     position: absolute;
     width: 150px;
     height: 10px;
-    font-family: 'Rubik',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -509,7 +514,7 @@ button.btn{
     position: absolute;
     width: 170px;
     height: 10px;
-    font-family: 'Rubik',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -551,7 +556,7 @@ button i{
     align-items: center;
     margin-top: 100px;
     color: #F2F3F5;
-    font-family: 'Rubik',sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 50px;
@@ -563,7 +568,9 @@ button i{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-top: 80px;
+    margin-top: 180px;
+    position: relative;
+    top: -100px;
 }
 
 .client-1,.client-2,.client-3,.client-4,.Client-5{
@@ -575,4 +582,243 @@ button i{
     justify-content: center;
     display: flex;
 
+}   
+
+  /* Founders Projects  */
+
+  .projects-headings{
+       padding: 40px 150px;
+       font-family: 'Roboto',sans-serif;
+       font-style: normal;
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 28px;
+       color: #131D3B;
+  }
+
+  .projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .projects img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+      
+        /* Projects Card 1 */
+
+  .project-1 img{
+      width: 360px;
+      height:465px;
+  }
+  .project-1{
+    width:360px;
+  }
+  .project-1 h3{
+       position: relative;
+       top: -430px;
+       left: 20px;
+       font-family: 'Roboto',sans-serif;
+       font-style: normal;
+       font-weight: 500;
+       font-size: 22px;
+       line-height: 37px;
+       color: #F2F3F5;
+  }
+
+  .project-1 span{
+    position: relative;
+       top: -430px;
+       left: 20px;
+       line-height: 30px;
+       font-family: 'Roboto',sans-serif;
+       font-style: normal;
+       font-weight: 400;
+       font-size: 14px;
+       color: #F2F3F5;
+  }
+   
+  .project-1 hr{
+    position: relative;
+    top: -430px;
+    left: 20px;
+    width: 70%;
+    opacity: 0.5;
+    border: 1px solid #F2F3F5;
+  }
+
+  .project-1 p{
+    position: relative;
+    top: -410px;
+    left: 20px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #F2F3F5;
+  }
+  .project-1 a{
+    position: relative;
+    top: -130px;
+    left:240px;
+    color: #F2F3F5;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+  }
+
+  .project-1 a:hover{
+    color: red;
+    transition: all 0.3s ease;
+  } 
+   
+     /* Projects Card 2 */
+
+  .project-2 img{
+    width: 360px;
+    height:465px;
 }
+.project-2{
+  width:360px;
+}
+.project-2 h3{
+     position: relative;
+     top: -430px;
+     left: 20px;
+     font-family: 'Roboto',sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 22px;
+     line-height: 37px;
+     color: #F2F3F5;
+}
+
+.project-2 span{
+  position: relative;
+     top: -430px;
+     left: 20px;
+     line-height: 30px;
+     font-family: 'Roboto',sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     color: #F2F3F5;
+}
+ 
+.project-2 hr{
+  position: relative;
+  top: -430px;
+  left: 20px;
+  width: 70%;
+  opacity: 0.5;
+  border: 1px solid #F2F3F5;
+}
+
+.project-2 p{
+  position: relative;
+  top: -410px;
+  left: 20px;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #F2F3F5;
+}
+.project-2 a{
+  position: relative;
+  top: -130px;
+  left:240px;
+  color: #F2F3F5;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.project-2 a:hover{
+  color: red;
+  transition: all 0.3s ease;
+}
+
+
+ /* Projects Card 3 */
+
+ .project-3 img{
+    width: 360px;
+    height:465px;
+}
+.project-3{
+  width:360px;
+}
+.project-3 h3{
+     position: relative;
+     top: -430px;
+     left: 20px;
+     font-family: 'Roboto',sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 22px;
+     line-height: 37px;
+     color: #F2F3F5;
+}
+
+.project-3 span{
+  position: relative;
+     top: -430px;
+     left: 20px;
+     line-height: 30px;
+     font-family: 'Roboto',sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     color: #F2F3F5;
+}
+ 
+.project-3 hr{
+  position: relative;
+  top: -430px;
+  left: 20px;
+  width: 70%;
+  opacity: 0.5;
+  border: 1px solid #F2F3F5;
+}
+
+.project-3 p{
+  position: relative;
+  top: -410px;
+  left: 20px;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #F2F3F5;
+}
+.project-3 a{
+  position: relative;
+  top: -130px;
+  left:240px;
+  color: #F2F3F5;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.project-3 a:hover{
+  color: red;
+  transition: all 0.3s ease;
+}
+
+
+    
